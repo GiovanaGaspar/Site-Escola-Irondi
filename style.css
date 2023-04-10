@@ -46,7 +46,7 @@ body{
 }
 
 .estudante-imagem{
-    width: 120px;
+    width: 100px;
 }
 
 .estudante-icone{
@@ -55,4 +55,21 @@ body{
 
 .estudante-div{
     text-align: center;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22% 22% 22%;
+}
+
+.rodape{
+    text-align: center;
+    padding: 50px 0;
+    background-image: linear-gradient(#C69FD9, #ffff);
+    height: 60px;
 }
